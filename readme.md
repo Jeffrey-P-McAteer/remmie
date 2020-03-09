@@ -50,7 +50,9 @@ remmie http://host:8080?output=headers&header-names=Server,Date 'POST:key1=val_1
  - [X] Hello World compiles
  - [ ] Argument and URI parsing
  - [ ] Config file parsing
- 
+
+---
+
  - [ ] SSH backend
  - [ ] psexec backend
  - [ ] WMI backend
@@ -58,9 +60,13 @@ remmie http://host:8080?output=headers&header-names=Server,Date 'POST:key1=val_1
  - [ ] telnet backend
  - [ ] tcp/udp backends (one-way data push + receive, nothing fancy)
 
+---
+
  - [ ] Plan User Script system (config, environment, and permission handling mostly)
  - [ ] User Scripts executed to process stdout
  - [ ] User Scripts to push stdin/automate multiple API calls
+
+---
 
  - [ ] Plan some protocol-discovery (user gives credentials + we try SSH/psexec/WMI/etc)
  - [ ] Plan some host-discovery (user has a smart lightbulb they'd like to talk to but has no idea where it is on the LAN)
